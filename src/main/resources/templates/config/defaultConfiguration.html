@@ -1,0 +1,66 @@
+<div th:replace="shared/header"></div>
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+	<!-- Page Heading -->
+	<h1 class="h3 mb-2 text-gray-800">Default configurations</h1>
+
+	<div class="card shadow mb-4" style="padding: 30px;">
+
+		<div class="container-sub" style="border: 1px solid black; border-radius: 10px; padding: 2%;">
+			<h2>Quantidade de labels por clipe</h2>
+			<div class="subcontainer" style="display: inline-block;">
+				<h3>Labels de comportamento</h3>
+				<button value="1">1</button>
+				<button value="2">2</button>
+				<button value="3">3</button>
+				<button value="4">4</button>
+				<button value="5">5</button>
+			</div>
+
+			<div class="subcontainer" style="display: inline-block;">
+				<h3>Labels de emoção</h3>
+				<button value="1">1</button>
+				<button value="2">2</button>
+				<button value="3">3</button>
+				<button value="4">4</button>
+				<button value="5">5</button>
+			</div>
+		</div>
+		
+		<br> <br>
+		
+		<div class="container-sub" style="border: 1px solid black; border-radius: 10px; padding: 2%;">
+			<h2>Tempo dos Clipes</h2>
+			<div class="subcontainer">
+				<button value="00:03">00:03</button>
+				<button value="00:05">00:05</button>
+				<button value="00:07">00:07</button>
+				<button value="00:10">00:10</button>
+				<button value="00:15">00:15</button>
+				<button value="00:30">00:30</button>
+			</div>
+		</div>
+		
+		<br> <br>
+		
+		<div class="container-sub" style="border: 1px solid black; border-radius: 10px; padding: 2%;">
+			<h2>Labels</h2>
+			<div class="subcontainer" style="display: inline-block;">
+				<h3>Comportamentos</h3>
+				<input type="checkbox" id="comportamento1" name="comportamento1">
+				<label for="comportamento1">Checkbox Item 1</label>
+				<br>
+			</div>
+			<div class="subcontainer" style="display: inline-block;">
+				<h3>Emoção</h3>
+				<input type="checkbox" id="emocao1" name="emocao1"> 
+				<label for="emocao1">Checkbox Item 1</label>
+				<br> 
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- /.container-fluid -->
+<div th:replace="shared/footer"></div>
